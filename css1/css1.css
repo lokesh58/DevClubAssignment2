@@ -1,0 +1,34 @@
+#rred {
+	background-color: red;
+	width: 100%;
+	height: 100px;
+}
+
+#ggreen {
+	background-color: green;
+	width: 100%;
+	height: 30px;
+}
+
+#bblue {
+	background-color: blue;
+	width: 25%;
+	height: 700px;
+	position: fixed;
+}
+
+#yyellow {
+	background-color: yellow;
+	width: 50%;
+	height: 700px;
+	position: fixed;
+	left: 25%;
+}
+
+#llight-blue {
+	background-color: cyan;
+	width: 25%;
+	height: 700px;
+	position: fixed;
+	left: 75%;
+}
