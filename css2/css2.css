@@ -6,7 +6,8 @@ body {
 	position: 0 auto;
 	background-color: gray;
 	border-radius: 15px;
-	width: 810px;
+	width: 870px;
+	margin: auto;
 }
 
 h1 {
