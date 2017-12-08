@@ -38,17 +38,19 @@ body {
 ul.todo {
 	width: 100%;
 	list-style-type: none;
+	background: #DDD;
+	padding: 0;
+	margin: 0;
 }
 
 ul.todo li {
 	width: 100%;
 	min-height: 30px;
 	font-size: 25px;
-	background: #FFF;
 	padding: 1%;
 }
 
-ul.todo li:nth-child(odd) {
-	background: #EEE;
+#completed li {
+	text-decoration: line-through;
 }
 
