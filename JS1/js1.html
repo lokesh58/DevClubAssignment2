@@ -12,10 +12,17 @@
 				Your todos
 			</div>
 			<div id="todoin">
-				<input type="text" placeholder="Enter todo here and press enter">
+				<input type="text" placeholder="Enter todo here and press enter" id="item" onkeypress="handleKeyPress(event)">
 			</div>
 			
+			<div class="container">
+				<ul class="todo">
+					<li id="todo">This is an todo item</li>
+					<li id="completed">This is an completed todo item</li>
+					<li id="completed">This is another completed todo item</li>
+				</ul>
+			
 			<script src="./js1.js"></script>
-		</div>
+		</div> <!-- "app" -->
 	</body>
 </html>
