@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 #rred {
 	background-color: red;
 	width: 100%;
