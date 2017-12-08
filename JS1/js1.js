@@ -11,5 +11,14 @@ function addToList() {
 	if (value) {
 		console.log(value);
 		document.getElementById('item').value = '';
+		addItem(value);
 	}
+}
+
+function addItem(text) {
+	let list = document.getElementById('todo');
+	let item = document.createElement('li');
+	item.innerText = text;
+	
+	list.insertBefore(item, list.childNodes[0]);
 }
