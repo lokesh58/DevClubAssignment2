@@ -52,12 +52,16 @@ ul.todo li {
 }
 
 ul.todo li button {
+	height: 30px;
+	width: 30px;
 	float: right;
+	padding: 0;
+	margin: auto;
 }
 
 ul.todo li button img {
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	cursor: pointer;
 }
 
