@@ -37,12 +37,31 @@ function removeItem(e, it) {
 	//console.log(parent.id);
 	
 	parent.removeChild(item);
-	console.log("removed");
+	//console.log("removed");
+}
+
+function editor(e, it) {
+	if (e.keyCode === 13) {
+		let item = it.parentNode;
+		let text = it.value;
+		item.innerText = text;
+		let buttons = document.createElement('span');
+		buttons.innerHTML = del+edit;
+	
+		item.appendChild(buttons);
+	
+		item.addEventListener('click', completeItem);
+	}
 }
 
 function editItem(e, it) {
 	e.stopPropagation();
-	console.log("edited");
+	let item = it.parentNode.parentNode;
+	let item_copy = item;
+	let list = item.parentNode;
+	let text = item.innerText;
+	item.removeEventListener('click', completeItem);
+	item.innerHTML = '<input type="text" id="editor" onkeypress="editor(event, this)" value="'+text+'">';
 }
 
 function addItem(text) {
