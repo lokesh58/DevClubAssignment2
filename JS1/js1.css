@@ -41,6 +41,7 @@ ul.todo {
 	background: #DDD;
 	padding: 0;
 	margin: 0;
+	cursor: pointer;
 }
 
 ul.todo li {
@@ -50,7 +51,17 @@ ul.todo li {
 	padding: 1%;
 }
 
-#completed li {
+ul.todo li button {
+	float: right;
+}
+
+ul.todo li button img {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+
+ul.todo#completed li {
 	text-decoration: line-through;
 }
 
