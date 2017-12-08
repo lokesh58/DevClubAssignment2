@@ -1,0 +1,45 @@
+body {
+	background: black;
+}
+
+iframe {
+	background: white;
+}
+
+p {
+	color: white;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	color: orange;
+}
+
+h3 {
+	color: blue;
+}
+
+h4 {
+	color: green;
+}
+
+h5 {
+	color: gray;
+}
+
+h6 {
+	color: lightblue;
+}
+
+ol {
+	background: yellow;
+	color: red;
+}
+
+ul {
+	background: #ADF;
+	color: green;
+}
