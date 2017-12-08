@@ -57,6 +57,11 @@ ul.todo li button {
 	float: right;
 	padding: 0;
 	margin: auto;
+	visibility: hidden;
+}
+
+ul.todo li:hover button {
+	visibility: visible;
 }
 
 ul.todo li button img {
