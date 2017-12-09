@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>DevClubAssignment2 :: html2</title>
+	<head>
+		<title>DevClubAssignment2 :: html2</title>
 		<link href="./html2.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <table align="center" border="1" cellspacing="0" width="50%">
-        <td align=left>left</td>
-        <td align=center>center</td>
-        <td align=right>right</td>
-      </tr>
-      <tr>
-        <td align=left>left</td>
-	<td align=center>center</td>        
-	<td align=right>right</td>
-      </tr>
-      <tr>                     
-        <td align=left>left</td>
+	</head>
+	<body>
+		<script>
+			let x = prompt("Please enter a number between 1 to 7");
+			while (isNaN(x)  || x < 1 || x > 7) {
+				x = prompt("NUMBER between 1 TO 7!!");
+			}
+			for (let i = 1; i <= x; i++) {
+				for (let j = 1; j <= i; j++) {
+					document.write('*');
+				}
+				document.write("<br />");
+			}
+		</script>
+   		<table align="center" border="1" cellspacing="0" width="50%">
+        		<tr>
+				<td align=left>left</td>
+				<td align=center>center</td>
+				<td align=right>right</td>
+			</tr>
+			<tr>
+				<td align=left>left</td>
 				<td align=center>center</td>        
 				<td align=right>right</td>
-      </tr>
-    </table>
-    <br /><br /><br />
-    <table align="center" width="50%" border="1" cellspacing="0">
-      <tr>
+			</tr>
+			<tr>                     
+				<td align=left>left</td>
+				<td align=center>center</td>        
+				<td align=right>right</td>
+			</tr>
+		</table>
+		<br /><br /><br />
+		<table align="center" width="50%" border="1" cellspacing="0">
+			<tr>
 				<td colspan="6">&nbsp</td>
-      </tr>
-      <tr>
+			</tr>
+			<tr>
 				<td rowspan="4"> </td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
-      </tr>
-      <tr>
+			</tr>
+			<tr>
 				<td>&nbsp</td>
 				<td colspan="3" rowspan="2">&nbsp</td>
 				<td>&nbsp</td>
-      </tr>
-      <tr>
+			</tr>
+			<tr>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
-      </tr>
-      <tr>
+			</tr>
+			<tr>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
-      </tr>
-      <tr>
+			</tr>
+			<tr>
 				<td colspan="6">&nbsp</td>
-      </tr>
-    </table>
-    <br /><br /><br />
-    <table border="1" cellspacing="0" width="50%" align="center">
-      <tr>
+			</tr>
+		</table>
+		<br /><br /><br />
+		<table border="1" cellspacing="0" width="50%" align="center">
+			<tr>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 				<td>&nbsp</td>
-      </tr>
+			</tr>
 			<tr>
 				<td>&nbsp</td>
 				<td>
@@ -87,7 +100,7 @@
 				<td>&nbsp</td>
 				<td>&nbsp</td>
 			</tr>
-    </table>
+		</table>
 		<table border="1" width="50%" align="center" cellpadding="10">
 			<tr bgcolor="green">
 				<td colspan="3">&nbsp</td>
