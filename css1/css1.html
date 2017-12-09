@@ -6,6 +6,14 @@
 		<link href="./css1.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<script>
+			const colors = ['red', 'blue', 'yellow', 'green', 'blue', 'cyan', 'gray', 'black', 'white', 'orange'];
+			document.body.addEventListener('click', changeBackground);
+			function changeBackground() {
+				let i = Math.floor(Math.random()*9);
+				document.body.style.background = colors[i];
+			}
+		</script>
 		<div id="rred"></div>
 		<div id="ggreen"></div>
 		<div id="bblue"></div>
