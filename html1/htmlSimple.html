@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>DevClubAssignment2 :: htmlSimple</title>
+	<head>
+		<title>DevClubAssignment2 :: htmlSimple</title>
 		<link href="./html1.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+	</head>
+	<body>
 		<div id="top">
+			<p id="sayHello"></p>
 		</div>
-    <h1>THIS IS HEADING1</h1>
-    <h2>THIS IS HEADING2</h2>
-    <h3>THIS IS HEADING3</h3>
-    <h4>THIS IS HEADING4</h4>
-    <h5>THIS IS HEADING5</h5>
-    <h6>THIS IS HEADING6</h6>
-    <p>THIS IS A PARAGRAPH. THIS IS A PARAGRAPH. THIS IS A PARAGRAPH.</p>
-    <p>THIS IS ANOTHER PARAGRAPH. THIS IS ANOTHER PARAGRAPH. THIS IS ANOTHER PARAGRAPH.</p>
-    <p>THIS IS A LINE BREAK<br>THIS IS A LINE BREAK<br>THIS IS A LINE BREAK<br><p>
-    <p>THIS IS AN ORDERED LIST.</p>
-    <ol>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-      <li>Item 5</li>
-    </ol>
-    <p>THIS IS AN UNORDERED LIST.</p>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-      <li>Item 5</li>
-    </ul>
-    <p><b>THIS TEXT IS BOLD</b></p>
-    <p><i>THIS TExT IS ITALIC</i></p>
+		<script>
+			let name = prompt("What is your name?");
+			if (name) {
+				document.getElementById("sayHello").innerHTML = "Hello " + name;
+			} else {
+				alert("Please enter a name next time");
+			}
+		</script>
+		<h1>THIS IS HEADING1</h1>
+		<h2>THIS IS HEADING2</h2>
+		<h3>THIS IS HEADING3</h3>
+		<h4>THIS IS HEADING4</h4>
+		<h5>THIS IS HEADING5</h5>
+		<h6>THIS IS HEADING6</h6>
+		<p>THIS IS A PARAGRAPH. THIS IS A PARAGRAPH. THIS IS A PARAGRAPH.</p>
+		<p>THIS IS ANOTHER PARAGRAPH. THIS IS ANOTHER PARAGRAPH. THIS IS ANOTHER PARAGRAPH.</p>
+	<p>THIS IS A LINE BREAK<br>THIS IS A LINE BREAK<br>THIS IS A LINE BREAK<br><p>
+		<p>THIS IS AN ORDERED LIST.</p>
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ol>
+		<p>THIS IS AN UNORDERED LIST.</p>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+		<p><b>THIS TEXT IS BOLD</b></p>
+		<p><i>THIS TExT IS ITALIC</i></p>
 		<iframe src="./../html2/html2.html"></iframe>
 		<p><a href="#top">top</a></p>
-  </body>
+	</body>
 </html>
